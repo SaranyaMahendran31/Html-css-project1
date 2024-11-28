@@ -1,0 +1,103 @@
+body{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+   }
+  
+img{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+    
+h3{
+    background-color: rgb(85, 136, 218);
+    height: 100%;
+    padding-top: 15px;
+    color: rgb(12, 8, 23);
+    width:100%;
+    margin: 0px;
+    font-size: 20px;
+   
+   }
+   h3 a {
+    text-decoration: none;
+    color: rgb(219, 216, 226); 
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin: 0 15px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+   
+play{
+    position: relative;
+    text-align: center;
+    color:rgb(51, 30, 2);
+    width:100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.play1{
+    position:absolute;
+    color:rgb(236, 238, 249);
+    right: 200px;
+    bottom: 250px;
+    text-align: center;
+    }
+    .heading-contact {
+        position:absolute;
+        text-align: center;
+        right: 200px;
+        bottom: 250px;
+        color: rgb(11, 4, 29); 
+    }
+    .contact-container{
+        position: absolute;
+        text-align: center;
+        right: 100px;
+        bottom: 100px;
+        padding-right: 200px;
+       }
+      
+    .contact-form{
+        text-align: center;
+        background-color: rgb(177, 214, 232);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+       }
+      
+      ul {
+        padding: 0;
+        margin: 0;
+        }
+   
+    
+    .contact-list {
+        list-style: disc inside;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .contact-list li {
+        margin: 10px 0;
+        font-size: 1.2rem;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+   

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Rider Sports Ticket Purchase</title>
+   <style>
+     img {
+        width: 100%;
+        display: block;
+    }
+
+    .ticket-container {
+        text-align: center;
+        background-color: rgb(190, 194, 196);
+        margin: 50px auto;
+        padding: 10px;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        position: relative;
+        z-index: 1; /* Ensure it appears above the image */
+        top: -1000px; /* Adjust position as needed */
+    }
+
+    button {
+        background-color: white;
+       
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #55beeb;
+    }
+
+   
+   </style>
+       
+</head>
+<body>
+    <img src="ticket.png" alt="ticket image"  height= "100%" width ="100%"
+  >
+    <div class="ticket-container">
+        <h1>Buy Your Ticket</h1>
+        <p>Get ready for an amazing experience with Snow Rider Sports!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="ticket-type">Ticket Type:</label><br>
+            <select id="ticket-type" name="ticket-type" required>
+                <option value="standard">Standard - $50</option>
+                <option value="vip">VIP - $100</option>
+                <option value="group">Group (4) - $180</option>
+            </select><br><br>
+
+            <button type="submit">Buy Ticket</button>
+        </form>
+    </div>
+</body>
+</html>
